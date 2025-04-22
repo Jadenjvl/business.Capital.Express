@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Apply for a businesses - Capital Express</title>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Capital Express</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="apply" class="apply">
+    <div class="container">
+        <h2>Apply for Your businesses</h2>
+        <form id="personal-application-form" action="https://formspree.io/f/xpwaejjd" method="POST" class="application-form">
+            <h3>Select Your businesses Type</h3>
+            <div class="card-selection">
+                <label>
+                    <input type="radio" name="card" value="Capital Express business Platinum account" required>
+                    <div class="card-option platinum">
+                        <h4>Capital Express business Platinum account</h4>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="card" value="Capital Express business Gold account" required>
+                    <div class="card-option gold">
+                        <h4>Capital Express business Gold account</h4>
+                    </div>
+                </label>
+                <label>
+                    <input type="radio" name="card" value="Capital Express business Silver account" required>
+                    <div class="card-option silver">
+                        <h4>Capital Express business Silver account</h4>
+                    </div>
+                </label>
+            </div>
+
+            <h3>Personal/Businesses Information</h3>
+            <label for="full-name">Full Name:</label>
+            <input type="text" name="full-name" id="full-name" required>
+
+            <label for="full-name">Businesses Name:</label>
+            <input type="text" name="full-name" id="full-name" required>
+
+            <label for="email">Personal Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="email">Businesses Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" name="phone" id="phone" required>
+
+            <label for="phone">Businesses Number:</label>
+            <input type="tel" name="phone" id="phone" required>
+
+            <label for="address">Businesses Address:</label>
+            <input type="text" name="address" id="address" required>
+
+            <label for="income">Annual businesses Income:</label>
+            <input type="number" name="income" id="income" required>
+
+            <button type="submit" class="cta-button">Submit Businesses Application</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Capital Express. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
